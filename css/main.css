@@ -13,6 +13,7 @@ h1 {
   font-weight: bold;
   color: #fff;
   display: block;
+  font-family: "Bevan", sans-serif;
 }
 
 h2 {
@@ -21,6 +22,9 @@ h2 {
   color: #fff;
   background-color: #713837;
   padding: .6em .5em .75em .5em;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 body {
@@ -28,4 +32,8 @@ body {
   background-color: #79756f;
   text-align: center;
   border: 3px solid #595652;
+  border-right: none;
+  border-left: none;
+  margin: auto;
+  padding: .6em .6em;
 }
