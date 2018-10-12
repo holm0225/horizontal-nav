@@ -16,7 +16,23 @@ h1 {
   font-family: "Bevan", sans-serif;
 }
 
-h2 {
+.intro {
+  display: inline-block;
+}
+
+.planets {
+  display: inline-block;
+}
+
+.mars {
+  display: inline-block;
+}
+
+.venus {
+  display: inline-block;
+}
+
+a {
   display: inline-block;
   margin: .3em;
   color: #fff;
@@ -25,6 +41,12 @@ h2 {
   font-size: 1.125rem;
   font-weight: bold;
   text-decoration: none;
+  border-radius: .3em;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #f33;
 }
 
 body {
