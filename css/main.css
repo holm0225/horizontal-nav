@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -12,4 +13,19 @@ h1 {
   font-weight: bold;
   color: #fff;
   display: block;
+}
+
+h2 {
+  display: inline-block;
+  margin: .3em;
+  color: #fff;
+  background-color: #713837;
+  padding: .6em .5em .75em .5em;
+}
+
+body {
+  display: block;
+  background-color: #79756f;
+  text-align: center;
+  border: 3px solid #595652;
 }
