@@ -9,41 +9,29 @@ html {
 }
 
 h1 {
+  font-family: "Bevan", sans-serif;
   text-align: center;
   font-weight: bold;
   color: #fff;
   display: block;
-  font-family: "Bevan", sans-serif;
 }
 
-.intro {
+h2 {
   display: inline-block;
-}
-
-.planets {
-  display: inline-block;
-}
-
-.mars {
-  display: inline-block;
-}
-
-.venus {
-  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  width: auto;
 }
 
 a {
-  display: inline-block;
-  margin: .3em;
-  color: #fff;
   background-color: #713837;
+  color: #fff;
+  text-decoration: none;
+  margin: .3em;
   padding: .6em .5em .75em;
   font-size: 1.125rem;
   font-weight: bold;
-  text-decoration: none;
   border-radius: .3em;
-  text-align: center;
-  list-style-type: georgian;
 }
 
 a:hover {
@@ -57,6 +45,6 @@ body {
   border: 3px solid #595652;
   border-right: none;
   border-left: none;
-  margin: 0em auto .3em;
-  padding: .6em;
+  margin: auto auto 3em;
+  width: 100vw;
 }
