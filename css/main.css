@@ -9,29 +9,30 @@ html {
 }
 
 h1 {
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, serif;
   text-align: center;
   font-weight: bold;
   color: #fff;
   display: block;
-  margin: 0 auto;
-}
-
-h2 {
-  display: inline-block;
-  list-style-type: none;
-  text-align: center;
-  width: auto;
-  margin: 0 auto;
+  margin: .1em;
 }
 
 a {
-  background-color: #713837;
+  margin: 0 auto;
   color: #fff;
   text-decoration: none;
-  padding: .6em .5em .75em;
-  font-size: 1.125rem;
-  margin: 0 auto;
+}
+
+nav li {
+  width: auto;
+  background-color: #713837;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: .5em;
+  display: inline-block;
+  list-style-type: none;
+  margin: auto;
   font-weight: bold;
   border-radius: .3em;
 }
@@ -47,7 +48,6 @@ body {
   border: 3px solid #595652;
   border-right: none;
   border-left: none;
-  margin: 0 auto;
+  margin: 0;
   width: 100vw;
-  padding: .6em .5em .75em;
 }
